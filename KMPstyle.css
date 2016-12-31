@@ -1,0 +1,159 @@
+#container{
+	background-color: white;
+	width: fill;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	font-family: "Pinyon Script", cursive;
+	font-weight: 100;
+	text-decoration: underline;
+	letter-spacing: 0.25em;
+	text-align: center;
+	background-color: #a5f957;
+	color: #090d4c;
+	margin: 0;
+}
+
+#nav ul {
+	font-family: "Playfair Display", serif;
+	font-weight: 600;
+	background-color: #a5f957;
+	text-align: center;
+	color: #090d4c;
+	position: relative;
+	padding: 0;
+	margin: 0;
+
+}
+
+#nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
+}
+
+#nav ul li:hover {
+	background-color: #85d937;
+}
+
+#nav ul li:hover ul {
+	display: block;
+}
+
+#nav ul ul {
+	display: none;
+	position: absolute;
+	margin-left: -10px;
+	margin-top: 10px;
+}
+
+#nav ul ul li {
+	background-color: #a5f957;
+	display: block;
+	min-width: 87px;
+	text-align: left;
+}
+
+#gallery1, #gallery2, #gallery3, 
+#gallery4, #gallery5, #gallery6 {
+	width: 396px;
+	height: 261px;
+	display: block;
+	margin: auto;
+}
+#gallery1 {
+	background-image: url(Photos/Home/Engagement.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#gallery2 {
+	background-image: url(Photos/Home/Graduation.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#gallery3 {
+	background-image: url(Photos/Home/Family.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#gallery4 {
+	background-image: url(Photos/Home/Maternity.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#gallery5 {
+	background-image: url(Photos/Home/Business.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#gallery6 {
+	background-image: url(Photos/Home/Prom.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#gallery1 a:hover { color: #090d4c; }
+#gallery2 a:hover { color: #090d4c; }
+#gallery3 a:hover { color: #090d4c; }
+#gallery4 a:hover { color: #090d4c; }
+#gallery5 a:hover { color: #090d4c; }
+#gallery6 a:hover { color: #090d4c; }
+
+#nav a{
+	text-decoration: none;
+	color: #090d4c;
+}
+
+a {
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.7);
+}
+#gallery1 p {
+	font-family: "Playfair Display", serif;
+	font-size: 2em;
+	font-weight: 700;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+#gallery2 p {
+	font-family: "Playfair Display", serif;
+	font-size: 2em;
+	font-weight: 700;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+#gallery3 p {
+	font-family: "Playfair Display", serif;
+	font-size: 2em;
+	font-weight: 700;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+#gallery4 p {
+	font-family: "Playfair Display", serif;
+	font-size: 2em;
+	font-weight: 700;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+#gallery5 p {
+	font-family: "Playfair Display", serif;
+	font-size: 2em;
+	font-weight: 700;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+#gallery6 p {
+	font-family: "Playfair Display", serif;
+	font-size: 2em;
+	font-weight: 700;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+h1{
+	margin: 0;
+}
